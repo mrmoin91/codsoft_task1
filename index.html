@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <!-- javascript -->
+    <script>
+        function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+}
+function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+}
+
+    </script>
+
+    <nav>
+        <div class="heading">AL-HIRA ACADEMY </div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#reg">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1"><IMG src="heera.png" class="heera">
+            <button>
+                <a href="http://www.alhiraschool.com/">
+                     More information
+                </a>
+            </button>
+        
+                <table height="500px" width="500px" class="t1" id="about"> 
+                    <tr><th><h2><b>ABOUT US</b></h2></th></tr>
+                    <tr><th>We Al Hira English School,situated at 
+                        <br>Malad East, Mumbai, Maharashtra believe
+                        <br> in providing academic excellence to
+                        <br> our students.In order to achieve this
+                        <br>we have a team of dedicated teachers
+                        <br> who channelize their energy and 
+                        <br> resources towards child-centered
+                        <br> qualitative learning.We help students
+                        <br> gain a strong foundation and develop into
+                        <br> holistic beings.During these years
+                        <br> transition from childhood to adolescence 
+                       <br>is facilitated by added education
+ </th></tr>
+                </table>
+            
+            </div>
+        </div>
+      
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span id="service">Services</span>
+            </div>
+            <div class="boxes">
+               
+                <div class="box">
+                    <img src="game.png" height="200px" width="300px">
+                  <div class="topic">
+                      <a href="" target="_blank">
+                          Sport
+                      </a>
+                  </div>
+                  <p>
+                      We firmly believe that participation in 
+                      <br>sports is an essential part of the 
+                      <br>learning process of a child.
+                      <br>The school also conducts 
+                      <br> Extra-curricular activities <br>
+                      - yoga & meditation, 
+                      <br> for the students.
+                  </p>
+                </div>
+
+                <div class="box">
+                    <img src="school.png" height="200px" width="300px">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            SCHOOL
+                        </a>
+                    </div>
+        
+                    <p>
+                        We are dedicated towards excellence of knowledge 
+                        <br>and education &  offer best schooling experiences.
+                        <br>We aim to give the best primary schooling
+                        <br> for a stronger foundation by offering 
+                        <br>exclusive learning programmes.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <img src="EXPERIENCE.jpg" height="200px" width="300px">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           Experienced-learning  
+                        </a>
+                    </div>
+                    <p>
+                        We conduct various character   
+                        <br>building activities for
+                            <br> students to strengthen 
+                            <br>their morals effectively.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="c">
+    <center>
+        <div class="c-h">
+           
+           <br> <span>Comments</span>
+        </div>
+    <table  height="150px" width="200px"
+     style="border-style:outset;border-color:color
+     (srgb rgb(134, 215, 109) rgb(67, 151, 67) blue);box-shadow: 5px;">
+        <tr>
+            <th>
+                <div class="scroll-container">
+                    <div class="scroll-page" id="page-1">
+                        " Mansi Sharma :<br>
+                        They help the overall development of children through various extracurricular activities."
+                        
+                     </div>
+                    <div class="scroll-page" id="page-2">  " Neha Mishra :<br>
+                        The best school as per my knowledge.
+                        <br> They help the children to learn effectively."</div>
+                    <div class="scroll-page" id="page-3"> " A.M.khan :<br>
+                        The best school as per my knowledge.<br>  am impressed with your curriculum and
+                        <br> teaching methods which is different from other schools. 
+                        Well planned worksheets for <br>practice makes my child 
+                        think beyond prescribed Textbooks."</div>
+                  </div>
+            </th>
+        </tr>
+    </table></center>
+    <br>
+    <br>
+    <br>
+</div>
+<center><table class="t3" height="550px" width="100%" style="background-image: url('enjoy.png'); width: 100%; height: 550px;">
+    <tr><th>Where Kids Learn
+        Through Fun</th></tr>
+</table></center>
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Register Here</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">User Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            >
+                    </div>
+                    <div class="label1">
+                        <label>Email id</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                           >
+                    </div>
+                    <div class="label1">
+                        <label>Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            >
+                    </div>
+                    <div class="button">
+                        <button><b>REG</b> </button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            <h4>Address :</h4>
+                            Survey No 239 & 272, CTS 602, <br> Vali Stable, Amba Pada Road,<br> Sanjay Nagar, Malad East, <br> Mumbai - 400097 (Opposite Forest Office.)
+                            <br> <br><h4>Timing :</h4>
+                            Mon - Sun : 09:00 AM - 09:00 PM
+                            <br> <br> <h4>phone : </h4>
+                            +91 9187249485
+                            <br>+91 9763548487
+                        </div>
+                        <div class="title1">
+                            <span></span>
+                        </div>
+                        <div class="content1">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+  
+
+        <footer>
+            <div class="footer" id="reg">
+                <span>Created By : mrboy91</span>
+                <br>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></l>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="#" target="_blank"> LINKEDIN <i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"> GITHUB <i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank"> INSTAGRAM <i class="fa fa-instagram"></i></a>
+                </div>
+                <br><span>© Copyrights 2024 - 2025</span>
+            </div>
+        </footer>
+  
+    
+</body>
+
+</html>
